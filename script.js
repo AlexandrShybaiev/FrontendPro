@@ -11,8 +11,12 @@ let city = prompt("В якому місті ти живеш?");
 let sport = prompt("Твій улюблений вид спорту?");
 
 // cancel тиць - "Ти скасував введення."
-if (birthYearStr === null || city === null || sport === null) {
-  alert("Ти скасував введення.");
+if (birthYearStr === null){
+  alert("Шкода, що Ви не захотіли ввести дату народження.");
+} else if (city === null){
+  alert("Шкода, що Ви не захотіли ввести місто.");
+} else if (sport === null){
+  alert("Шкода, що Ви не захотіли ввести вид спорту.");
 } else {
   let birthYear = Number(birthYearStr);
   let currentYear = new Date().getFullYear();

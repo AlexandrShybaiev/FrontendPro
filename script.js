@@ -1,18 +1,6 @@
-function askNumber() {
-  let lastValue;
-
-  for (let i = 0; i < 10; i++) {
-    let input = prompt("Введіть число більше 100");
-    let number = Number(input);
-
-    lastValue = number;
-
-    if (number > 100) {
-      break;
-    }
+function multiply(num1) {
+  return function (num2){
+    return num1 * num2
   }
-
-  console.log(lastValue);
 }
-
-askNumber();
+console.log(multiply(5)(2))

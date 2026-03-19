@@ -1,0 +1,26 @@
+body{
+  background: rgba(228, 196, 255, 0.25);
+}
+
+table {
+  display: block;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+td, th {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+td:hover {
+  background-color: rgba(127, 76, 175, 0.55);
+  color: white;
+  cursor: pointer;
+}
+
+th {
+  background-color: rgba(11, 7, 135, 0.41);
+}

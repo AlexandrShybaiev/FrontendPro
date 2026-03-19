@@ -1,0 +1,22 @@
+body{
+  background: #35310c;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
